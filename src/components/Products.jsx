@@ -6,7 +6,7 @@ export const Products = () => {
   return (
     <div className="products box">
       <h2>Products</h2>
-      <ul class="list">
+      <ul className="list">
         {groceryItems.map(({ id, name, icon }) => {
           return (
             <li className="list-item box" key={id}>
@@ -14,7 +14,7 @@ export const Products = () => {
                 <span className="icon">{icon}</span>
                 <span>{name}</span>
               </div>
-              <button onClick={addToCart} class="btn">
+              <button onClick={addToCart} className="btn">
                 add to cart
               </button>
             </li>

@@ -15,12 +15,12 @@ export const groceryItems = [
     icon: "🌶"
   },
   {
-    id: 3,
+    id: 4,
     name: "Nimbu",
     icon: "🍋"
   },
   {
-    id: 3,
+    id: 5,
     name: "Pyaaz",
     icon: "🧅"
   }
